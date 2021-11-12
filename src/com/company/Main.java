@@ -17,9 +17,10 @@ public class Main {
 
         double average = total/count;
         System.out.println("Average is: "+ average);
-        int F = 212;
-        double C = 9/5 * (F-32);
-        System.out.println("Celsius: "+C);
+        int tempF = 212;
+
+        double tempC = 9/5 * (tempF-32);
+        System.out.println("Celsius: "+tempC);
 
     }
 }
